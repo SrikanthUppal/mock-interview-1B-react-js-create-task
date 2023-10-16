@@ -1,0 +1,94 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #000000;
+  height: 80vh;
+}
+.form-container {
+  background-color: #131213;
+  width: 35vw;
+  padding: 56px 20px 16px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.form-heading {
+  color: #f3aa4e;
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+.label {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #f8f8f8;
+  font-weight: 500;
+}
+.input-bar {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  color: #1a171d;
+  font-family: 'Roboto';
+  padding-left: 12px;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-top: 8px;
+  font-weight: 500;
+}
+.select-bar {
+  cursor: pointer;
+}
+.tags-container {
+  margin-top: 18px;
+}
+.add-task-button {
+  align-self: center;
+  margin-top: 26px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  border: none;
+  color: #f8fafc;
+  background-color: #f3aa4e;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}
+.tag-task-container {
+  background-color: #000000;
+  padding: 36px 20px 16px 20px;
+  width: 65vw;
+}
+.tags-task-text {
+  color: #f1f5f9;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.tags-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.tasks-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.no-task-text {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #f1f5f9;
+  font-size: 26px;
+  margin-top: 100px;
+  text-align: center;
+}

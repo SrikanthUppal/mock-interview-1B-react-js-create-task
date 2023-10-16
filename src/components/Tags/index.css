@@ -1,0 +1,22 @@
+.tag-list-item {
+  color: #ffffff;
+}
+.inActive-btn {
+  background-color: transparent;
+  border: 1px solid #f3aa4e;
+  color: #ffffff;
+  padding: 6px 10px 6px 10px;
+  border-radius: 16px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.active-btn {
+  background-color: #f3aa4e;
+  border: 1px solid #f3aa4e;
+  color: #ffffff;
+  padding: 6px 10px 6px 10px;
+  border-radius: 16px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+}
